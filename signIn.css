@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0px;
+  padding: 0px;
+  font: poppins;
+}
+
+.main {
+  width: 100%;
+  height: 10vh;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 45px;
+  background-color: white;
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.02);
+  z-index: 1;
+}
+
+.logo img {
+  height: 45px;
+}
+
+.elements {
+  display: flex;
+  list-style: none;
+}
+
+.elements li a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 0px 22px;
+  margin: 3px;
+  display: flex;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  height: 40px;
+  line-height: 43px;
+  font-weight: 500;
+  color: grey;
+}
+
+.hi {
+  text-decoration: none;
+  border-bottom: 2px solid #39bfbd;
+  color: #39bfbd;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.image {
+  height: 500px;
+  width: 500px;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn:hover {
+  background-color: #23cdaf;
+  transition: all ease 0.2s;
+}
+
+.elements li a:hover {
+  background-color: #23cdaf;
+  transition: all ease 0.2s;
+  color: white;
+  box-shadow: 5px 10px 30px rgba(34, 139, 115, 0.2);
+}
+
+body {
+  background: url(signInbg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  z-index: -3;
+}
+
+.container {
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+
+.container h1 {
+  font-family: 'Heebo', sans-serif;
+  width: 50%;
+  display: inline-block;
+  font-size: 40px;
+  border-bottom: 5px solid purple;
+  margin-bottom: 15px;
+  padding: 13px 0;
+}
+
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: black;
+}
+
+.box {
+  width: 100%;
+  margin: 22px 0px;
+  border-bottom: 2px solid purple;
+}
+
+.box input {
+  background: none;
+  width: 75%;
+  padding: 5px 10px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.btn {
+  color: white;
+  cursor: pointer;
+  outline: none;
+  margin: 12px 0;
+  padding: 10px 21px;
+  border: 2px solid purple;
+  border-radius: 10px;
+  font-size: 18px;
+  background: none;
+  font-weight: bold;
+}
+
+.box i {
+  width: 25px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 0.5;
+  color: purple;
+  background: white;
+}
